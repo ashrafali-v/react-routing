@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Films from './films';
-import Users from './users';
-import Navbar from './navbar';
-import Profile from './profile';
+import Films from './components/films';
+import Users from './components/users';
+import Navbar from './components/navbar';
+import Profile from './components/profile';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 function App() {
   return (
